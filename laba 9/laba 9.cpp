@@ -20,7 +20,7 @@ struct Stud {
 
 int main() {
 	Stud st[MAX_KOL];
-	int kol_attest, kol_stud, grade;
+	int kol_attest, kol_stud;
 	setlocale(LC_ALL, "Russian");
 	system("chcp 1251");
 	cout << "Введите количество студентов в группе: ";
